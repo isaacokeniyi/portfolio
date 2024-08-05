@@ -1,0 +1,65 @@
+@media screen and (max-width: 1230px) {
+    .main{
+        margin-left: 15px;
+    }
+    #testimonials li b{
+        font-size: 22px;
+    }
+    #testimonials li p span:nth-child(3){
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .main{
+        margin-left: 15px;
+    }
+    #testimonials li b{
+        font-size: 22px;
+    }
+    #testimonials li p span:nth-child(3){
+        font-size: 14px;
+    }
+    #testimonials li p{
+        margin: 5px;
+    }
+    #title{
+        font-size: 30px;
+        width: 100vw;
+    }
+    #testimonials{
+        display: flex;
+        height: 65%;
+        width: 100%;
+        list-style: none;
+    }
+    #testimonials li{
+        flex-wrap: wrap;
+        width: 80vw;
+        height: fit-content;
+        text-align: left;
+    }
+    .details{
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+    }
+    #testimonials li img{
+        width: 150px;
+        height: 150px;
+        margin: 20px;
+        border-radius: 5px;
+    }
+    section, .sideNavs{
+        position: fixed;
+        top: 0;
+        left: 0;
+    }
+    body{
+        position: static;
+    }
+}
+
+
+
+

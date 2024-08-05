@@ -1,0 +1,50 @@
+#title{
+    font-weight: bold;
+    font-size: 100px;
+    padding: 10px;
+    border: 2px solid #00000022;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.education, .experience{
+    height: 30%;
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.education b, .experience b{
+    font-weight: bolder;
+    font-size: 22px;
+    margin: 5px;
+}
+.education ul, .experience ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.education ul li, .experience ul li{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+}
+.years{
+    color: #ffffff;
+    background-color: #ffb834;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 5px;
+}
+.name{
+    font-weight: bold;
+    margin: 5px;
+}
+.info{
+    color: #000000bf;
+    margin: 5px;
+}
+
+
+
+

@@ -1,0 +1,11 @@
+/* GIVES A FADED BACKGROUND IMAGE FOR SCREENS OF WODTH THAT ARE LESS THAN 1024PX */
+
+@media screen and (max-width: 1024px) {
+    body{
+        flex-direction: column;
+        padding: 0 20px;
+        background-image: url('../../images/profilefaded.png');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+}

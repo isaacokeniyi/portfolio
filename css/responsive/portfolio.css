@@ -1,0 +1,32 @@
+@media screen and (max-width: 768px) {
+    #title{
+        font-size: 30px;
+        width: 100vw;
+    }
+    .topNav{
+        width: 100vw;
+    }
+    .topNav li{
+        width: 20vw;
+    }
+    .topNav li a{
+        font-size: 13px;
+    }
+    .products{
+        width: 100vw;
+        height: 60vh;
+    }
+    .productImg{
+        margin: 5px;
+        border-radius: 5px;
+    }
+}
+
+
+
+
+
+
+
+
+

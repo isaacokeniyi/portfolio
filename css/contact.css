@@ -1,0 +1,40 @@
+#title{
+    font-weight: bold;
+    font-size: 100px;
+    padding: 10px;
+    border: 2px solid #00000022;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 10px;
+}
+#intro{
+    font-size: 35px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.contactInfo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+}
+.contactInfo ul{
+    display: flex;
+    list-style: none;
+}
+.contactInfo ul li{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+}
+.contactInfo ul li img{
+    float: left;
+    width: 150px;
+    height: 150px;
+    margin-right: 10px;
+}
+footer{
+    font-size: 40px;
+}

@@ -1,0 +1,50 @@
+section{
+    height: 100vh;
+    width: 50vw;
+}
+.right{
+    background-image: url('../images/profile.png');
+    background-repeat: no-repeat;
+    background-size: 50vw 100vh;
+}
+.left p:nth-child(1){
+    font-size: 50px;
+    font-weight: bold;
+}
+.left p:nth-child(2){
+    font-size: 80px;
+    font-weight: bold;
+}
+.left p:nth-child(2) span{
+    color: #f6a416;
+}
+.left p:nth-child(3){
+    background-color: #efb343;
+    padding: 5px 10px;
+    width: fit-content;
+    border-radius: 5px;
+}
+.left p:nth-child(4){
+    margin: 20px 0;
+}
+.left a{
+    color: #ffffff;
+    background-color: #ffb834;
+    width: fit-content;
+    padding: 10px;
+    border-radius: 50px;
+    text-decoration: none;
+}
+.left a:hover{
+    transition: 0.5s;
+    color: #df9e24;
+}
+.left{
+    background-color: #ffffff;
+    padding: 0 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+}
+

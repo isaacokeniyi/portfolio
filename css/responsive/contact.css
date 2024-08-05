@@ -1,0 +1,35 @@
+/* FOR WIDTH LESS THAN 768PX */
+
+
+@media screen and (max-width: 768px) {
+    #title{
+        font-size: 30px;
+        width: 100vw;
+    }   
+    #intro{
+        font-size: 15px;
+        width: 100vw;
+    }
+    #info{
+        font-size: 12px;
+        width: 100vw;
+    }
+    .contactInfo ul{
+        flex-direction: column;
+    }
+    .contactInfo ul li{
+        width: 90vw;
+    }
+    .contactInfo ul li img{
+        width: 100px;
+        height: 100px;
+        margin-right: 10px;
+    }
+    footer{
+        font-size: 20px;
+    }
+}
+
+
+
+

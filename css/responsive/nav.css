@@ -1,0 +1,80 @@
+/* FOR SCREENS OF WIDTH BETWEEN 768PX AND 1024PX */
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    section{
+        flex-direction: row;
+        height: 10vh;
+        width: 100vw;
+    }
+    .sideNav ul{
+        flex-direction: row;
+        gap: 1rem;
+    }
+    .sideNav ul li{
+        margin: 5px;
+    }
+    .main{
+        height: 90vh;
+        margin: 0;
+    }
+    .profile{
+        display: none;
+    }
+}
+
+/* FOR SCREENS OF WIDTH LESS THAN 768PX */
+
+@media screen and (max-width: 768px) {
+    section{
+        flex-direction: row;
+        height: 10vh;
+        width: 100vw;
+    }
+
+    .sideNav ul{
+        flex-direction: row;
+        gap: 1 rem;
+    }
+    .sideNav ul li{
+        margin: 5px;
+        font-size: 10px;
+    }
+    .sideNav ul li .active{
+        font-size: 15px;
+    }
+    .main{
+        height: 80vh;
+        margin: 0;
+        text-align: center;
+    }
+    .profile{
+        display: none;
+    }
+}
+@media screen and (max-width: 420px) {
+    section{
+        flex-direction: row;
+        height: 10vh;
+        width: 100vw;
+    }
+
+    .sideNav ul{
+        flex-direction: row;
+        gap: 1 rem;
+    }
+    .sideNav ul li{
+        margin: 5px;
+        font-size: 7px;
+    }
+    .sideNav ul li .active{
+        font-size: 8px;
+    }
+    .main{
+        height: 80vh;
+        margin: 0;
+        text-align: center;
+    }
+    .profile{
+        display: none;
+    }
+}

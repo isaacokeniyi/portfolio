@@ -1,0 +1,75 @@
+#title{
+    font-weight: bold;
+    font-size: 100px;
+    padding: 10px;
+    border: 2px solid #00000022;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 10px;
+}
+#intro{
+    font-size: 35px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.bottom{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    margin-top: 10px;
+}
+.qualifications{
+    background-color: #000000;
+    color: #ffffff;
+    height: 100%;
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.qualifications p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 50%;
+    text-align: center;
+    flex-direction: column;
+}
+.qualifications p b{
+    font-size: 80px;
+    color: #ffb834;
+}
+#years, #happy{
+    border-right: 1px solid #ffffff;
+}
+#years, #projects{
+    border-bottom: 1px solid #ffffff;
+}
+.whatIDo{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin-left: 10px;
+}
+.whatIDo ul{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+}
+.whatIDo ul li{
+    margin: 5px;
+    display: flex;
+    text-align: justify;
+}
+.whatIDo ul li img{
+    width: 100px;
+    height: 100px;
+    margin-right: 3px;
+}
+.whatIDo ul li p{
+    font-size: 14px;
+}
+
+

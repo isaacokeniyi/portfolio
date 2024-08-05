@@ -1,0 +1,57 @@
+/* FOR SCREENS BETWEEN 768PX AND 1024PX */
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    section{
+        width: 100vw;
+    }
+    .right{
+        position: fixed;
+        top: 0;
+        left: 0;
+        background-size: 100vw 100vh;
+        opacity: 0.3;
+        width: 100vw;
+        height: 100vh;
+    }
+    .left{
+        z-index: 1;
+        background: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        background-size: 100vw 100vh;
+    }
+}
+
+/* FOR SCREENS LOWER THAN 768PX */
+
+@media screen and (max-width: 767px) {
+    section{
+        width: 100vw;
+    }
+    .right{
+        position: fixed;
+        top: 0;
+        left: 0;
+        background-size: 100vw 100vh;
+        opacity: 0.3;
+        width: 100vw;
+        height: 100vh;
+    }
+    .left{
+        z-index: 1;
+        background: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        background-size: 100vw 100vh;
+        align-items: center;
+        text-align: center;
+    }
+    .left p:nth-child(1){
+        font-size: 20px;
+    }
+    .left p:nth-child(2){
+        font-size: 25px;
+    }
+} 

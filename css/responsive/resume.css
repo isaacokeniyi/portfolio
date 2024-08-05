@@ -1,0 +1,84 @@
+/* FOR WIDTH LESS THAN 1270PX, WILL BE PARTLY OVERWRITTEN BY FUTURE MEDIA QUERIES */
+
+@media screen and (max-width: 1270px) {
+    .info{
+        font-size: 12px;
+    }
+    .main{
+        margin-left: 15px;
+    }
+}
+
+
+/* FOR WIDTH BETWEEN 768PX AND 1024PX */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    #title{
+        font-size: 60px;
+        width: 100vw;
+    }
+    .education, .experience{
+        height: fit-content;
+        width: 100vw;
+    }
+    .education b, .experience b{
+        font-size: 18px;
+    }
+}
+
+/* FOR WIDTH SMALLER THAN 768PX */
+@media screen and (max-width: 768px) {
+    #title{
+        font-size: 30px;
+        width: 100vw;
+    }
+    .education, .experience{
+        height: fit-content;
+        width: 100vw;
+    }
+    .education b, .experience b{
+        font-size: 18px;
+    }
+    .education ul li, .experience ul li{
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 490px) {
+    #title{
+        font-size: 30px;
+        width: 100vw;
+    }
+    .education, .experience{
+        height: fit-content;
+        width: 100vw;
+    }
+    .education b, .experience b{
+        font-size: 18px;
+    }
+    .education ul li, .experience ul li{
+        align-items: start;
+    }
+    .education ul, .experience ul{
+        flex-direction: column;
+    }
+    body{
+        position: static;
+        margin-top: 25vh;
+    }
+    .main{
+        margin-top: 20vh;
+        height: fit-content;
+        text-align: left;
+    }
+    section{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 110vw;
+    }
+}
+
+
+
+
+
